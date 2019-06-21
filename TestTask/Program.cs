@@ -21,6 +21,7 @@ namespace TestTask
                 switch (menu)
                 {
                     case "1":
+                        Console.WriteLine("Producent Model Pojemność");
                         foreach (Cars item in m.GetTests())
                         {
                             Console.WriteLine(item.Manufacturer + " " + item.Model + " " + item.Capacity);
